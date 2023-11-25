@@ -19,10 +19,6 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 @RequestMapping("/telegram")
 public class TelegramController extends TelegramLongPollingBot {
 
-//    private final String botId = "-jobdabot";
-//    private final String botToken = "6434259180:AAGEAFCVoMEOFhmD6yqq8qmMCR6qRFFy3So";
-//    private final String chatId = "-1002087272871";
-
     @Value("${telegram.bot.id}")
     public String botId;
 
